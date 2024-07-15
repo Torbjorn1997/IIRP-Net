@@ -30,6 +30,7 @@ python test.py --scansdir  data/vol --labelsdir  data/seg --dataset mind --label
 ```
 The test results are:
 ![image](https://github.com/user-attachments/assets/00545f68-0fce-4fbb-9a1a-9cf9597dd5c5)
+
 For IIRP-Net
 ```code
 python test_iirp.py --scansdir  data/vol --labelsdir  data/seg --dataset mind --labels  data/label_mind.npz --model model/mind.pt --gpu 0
